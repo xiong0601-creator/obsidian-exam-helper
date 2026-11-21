@@ -37,9 +37,12 @@
 
 **方式一：手动装（推荐，最快）**
 
-1. 到 [Releases](https://github.com/xiong0601-creator/obsidian-exam-helper/releases) 下载 `manifest.json`、`main.js`、`styles.css`（或整个 zip 解压）
+1. 在本仓库根目录直接下载这三个文件：`manifest.json`、`main.js`、`styles.css`
+   （打开每个文件 → 点 `Raw` → 另存为；或用「Code → Download ZIP」后取这三个）
 2. 放到你的库：`<你的库>/.obsidian/plugins/beikao-helper/`
 3. Obsidian 设置 → 第三方插件 → 关闭安全模式 → 刷新 → 启用「备考助手」
+
+> 当前版本还没有打 Release 标签，所以直接从仓库取文件即可。仓库里备了 [workflow-templates/](workflow-templates/) 两份 Actions 配置（CI 校验 + tag 自动打包 zip），有工作流权限时复制到 `.github/workflows/` 就能启用自动 Release。
 
 **方式二：BRAT**
 
