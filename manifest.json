@@ -1,0 +1,10 @@
+{
+  "id": "beikao-helper",
+  "name": "备考助手",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "把笔记变成题库：刷题、背诵、错题本、资料检索，可选 AI 讲解与出题。全部本地运行。",
+  "author": "xiong0601-creator",
+  "authorUrl": "https://github.com/xiong0601-creator",
+  "isDesktopOnly": false
+}
