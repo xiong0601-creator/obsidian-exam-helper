@@ -374,7 +374,7 @@ class BeikaoPlugin extends Plugin {
       new Notice('生成失败：' + String(e.message || e));
     }
   }
-}
+};
 
 /** 供测试与贡献者使用：解析函数单独导出 */
 module.exports = BeikaoPlugin;
